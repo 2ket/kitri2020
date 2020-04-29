@@ -5,4 +5,18 @@ public class Pay {
 	public int bonbong;
 	public int tex;
 	public int silsu;
+	
+	public void input(String n, int b) {
+		name=n;
+		bonbong=b;
+	}
+	
+	public void yonsan() {
+		tex=(int)(bonbong*0.045+0.5);
+		silsu=bonbong-tex;
+	}
+	
+	public void output() {
+		System.out.println(name+"\t"+bonbong+"\t"+tex+"\t"+silsu+"\n");
+	}
 }
