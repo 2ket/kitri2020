@@ -8,16 +8,25 @@ public class FAccumulator {	//계산, 누적
 	
 	protected FAccumulator(int initValue) {
 		this.initValue=initValue;
-		totValue+=initValue;//
+//		plusTot(initValue);
 	}
 	
 	protected void setAccumulator(int money) {
 		if(money<0)return;
 		initValue+=money;
-		totValue+=money;//
+//		plusTot(money);
 	}
 	protected int getAccumulator() {
 		return initValue;
+	}
+	
+//	protected void plusTot(int money) {
+//		totValue+=money;//
+//	}
+	
+	protected int getTotal() {
+		totValue+=initValue;
+		return totValue;
 	}
 	
 }
