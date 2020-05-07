@@ -48,7 +48,7 @@ public class HExam {
 //		HSon a=new HParents(1,2); //ERROR:자식은 부모클래스를 담을 수 없다.
 		
 		HParents r=new HSon(1,2);	// upCasting
-		r.yonsan();//자식꺼(Overriding) 함수재정의
+		r.yonsan();//자식꺼(Overriding) 함수재정의한 함수를 불러올 수 있다.
 //		r.disp() //ERROR:자식 고유의것은 건드리지 못함
 //		함수 재정의는 자식은 부모의 함수를 고쳐쓸 수 있고, 부모는 자식의 재정의된 함수를 담을 수 있다.
 		
