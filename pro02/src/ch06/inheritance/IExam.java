@@ -23,10 +23,11 @@ class XX{
 }
 
 class YY{
-	public void setData(Object obj) {	
+	public void setData(Object obj) {	//Object x=new XX(); ->업캐스팅
 //		setData에서 받아주는 파라미터 객체가 Object인데, Main함수에서 setData에 던져주는 x값이 XX클래스(자식클래스)객체이므로 upCasting이 된다.
 //		받는게 많을때는 최상위 클래스(Object)로 받아서 upCasting 후 다시 downCasting한다.
-//		obj.disp();	//ERROR
+//		obj.disp();	//ERROR : 부모객체에서 자식 고유의 함수는 사용못함 다운캐스팅 필요
+		
 		System.out.println(obj.toString());
 		XX x=(XX) obj;	//downCasting
 		x.disp();
@@ -39,7 +40,6 @@ public class IExam {
 		XX x=new XX();
 		YY y=new YY();
 		y.setData(x);
-		
 		
 	}
 
