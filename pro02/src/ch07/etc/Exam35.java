@@ -42,11 +42,14 @@ class CC{
 public class Exam35 {
 
 	public static void main(String[] args) {
-		BB b=new BB();
-		CC c=new CC();
-		c.func(b);//객체단위로 넘겨주는 경우가 훨씬 많음
-
+		BB b=new BB();	//b=0x100
+		CC c=new CC();	//c=0x200
+		c.func(b);		//0x100
+		c.sub();		
+		//객체단위로 넘겨주는 경우가 훨씬 많음
+		
 		b=null;
+		c=null;
 	}
 
 }
