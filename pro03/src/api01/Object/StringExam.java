@@ -20,6 +20,7 @@ public class StringExam {
 		
 		Member member=new Member("abc123", "pw123");
 		System.out.println(member.toString());
+		System.out.println("toString 생략:"+member);
 		
 		Su s=new Su();
 		s.setX(10);
@@ -27,6 +28,7 @@ public class StringExam {
 		s.setZ(30);
 		
 		System.out.println(s.toString());
+		System.out.println(s);
 	}
 
 }
