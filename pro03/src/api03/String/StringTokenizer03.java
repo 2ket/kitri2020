@@ -3,7 +3,7 @@ import java.util.StringTokenizer;
 /**
  * @Author : 김경은
  * @Date : 2020. 5. 13.
- * @Description : 	util package
+ * @Description : 	
  */
 public class StringTokenizer03 {
 
