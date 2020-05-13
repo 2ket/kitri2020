@@ -1,5 +1,10 @@
 package api03.String;
 
+/**
+ * @Author : 김경은
+ * @Date : 2020. 5. 13.
+ * @Description : StringBuffer 속도 좀 빠르고, 추가/삭제/수정 작업을 할 수 있다.
+ */
 public class StringBuffer01 {
 
 	public static void main(String[] args) {
