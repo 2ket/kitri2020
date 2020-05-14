@@ -2,6 +2,11 @@ package api07.Date;
 
 import java.text.DecimalFormat;
 
+/**
+ * @Author : 김경은
+ * @Date : 2020. 5. 14.
+ * @Description : 10진수 데이터 형식 표시
+ */
 public class DecimalExam {
 
 	public static void main(String[] args) throws Exception {
