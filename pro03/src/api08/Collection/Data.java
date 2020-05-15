@@ -10,6 +10,7 @@ public class Data {
 	public Data(int x, int y) {
 		this.x = x;
 		this.y = y;
+//		yonsan();
 	}
 	public void yonsan() {
 		z=x+y;
