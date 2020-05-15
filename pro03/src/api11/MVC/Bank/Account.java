@@ -8,15 +8,15 @@ package api11.MVC.Bank;
 public class Account {
 	private int id;			//계좌번호
 	private String name;	//이름
-	private long balanace;	//잔액
+	private long balance;	//잔액
 	
 	public Account() {}
 	
-	public Account(int id, String name, long balanace) {
-		super();
+	public Account(int id, String name, long balance) {
+//		super();
 		this.id = id;
 		this.name = name;
-		this.balanace = balanace;
+		this.balance = balance;
 	}
 	public int getId() {
 		return id;
@@ -30,16 +30,16 @@ public class Account {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public long getBalanace() {
-		return balanace;
+	public long getbalance() {
+		return balance;
 	}
-	public void setBalanace(long balanace) {
-		this.balanace = balanace;
+	public void setbalance(long balance) {
+		this.balance = balance;
 	}
 
 	@Override
 	public String toString() {
-		return "Account [id=" + id + ", name=" + name + ", balanace=" + balanace + "]";
+		return "Account [id=" + id + ", name=" + name + ", balance=" + balance + "]";
 	}
 	
 	
