@@ -1,4 +1,4 @@
-package io06.Thread;
+package thread01.basic;
 
 /**
  * @Author : 김경은

@@ -1,4 +1,4 @@
-package io06.Thread;
+package thread01.basic;
 
 public class SubThread extends Thread{
 	public static boolean inputCheck=false;

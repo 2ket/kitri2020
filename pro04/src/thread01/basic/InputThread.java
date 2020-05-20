@@ -1,4 +1,4 @@
-package io06.Thread;
+package thread01.basic;
 
 import javax.swing.JOptionPane;
 

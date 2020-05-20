@@ -1,4 +1,4 @@
-package io06.Thread;
+package thread01.basic;
 
 public class Digit01 extends Thread{
 	public void run() {
