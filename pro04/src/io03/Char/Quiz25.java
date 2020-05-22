@@ -27,6 +27,17 @@ public class Quiz25 {
 					int su=Integer.parseInt(str[i]);	//쪼개놓은 str[i]을 숫자로 변환
 					hap+=su;							//한 줄에 있던 숫자들을 다 더함
 				}
+				//강사님은 StringTokenizer 쓰심. 공백기준 자르는건 token이 더 좋음
+/*
+ * 				StringTokenizer token=new StringTokenizer(hang);
+ * 				int sum=0;
+				while(token.hasMoreTokens()){
+					// System.out.println(token.nextToken() + "\t");
+					sum=sum+Integer.parseInt(token.nextToken());
+				}
+				System.out.println("합은:" + sum);
+ * 
+ */
 				System.out.println("합은 : "+hap);
 				
 			}
