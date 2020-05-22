@@ -15,7 +15,10 @@ public class Quiz25 {
 		array.add(c);
 		
 		for(int i=0;i<array.size(); i++) {
-			array.get(i).disp();
+//			array.get(i).disp();
+			//강사님 풀이
+			Man result=array.get(i);
+			result.disp();
 		}
 	}
 

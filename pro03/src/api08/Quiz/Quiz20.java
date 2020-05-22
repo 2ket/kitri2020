@@ -24,6 +24,7 @@ public class Quiz20 {
 		}else {
 		System.out.println("해당 이름이 없습니다.");
 		}
+		sc.close();
 	}
 
 }

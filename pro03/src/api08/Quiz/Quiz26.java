@@ -1,5 +1,6 @@
 package api08.Quiz;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Quiz26 {
@@ -45,7 +46,8 @@ class Sung{
 		avg=(float)tot/3.0f;
 	}
 	public void disp() { 
-		System.out.println(name+"\t"+kor+"\t"+eng+"\t"+mat+"\t"+tot+"\t"+Math.ceil((double)avg*10)/10);
+		DecimalFormat df=new DecimalFormat(".0");//Math.ceil((double)avg*10)/10
+		System.out.println(name+"\t"+kor+"\t"+eng+"\t"+mat+"\t"+tot+"\t"+df.format(avg));
 	}
 	public static void title() {
 		System.out.println("이름"+"\t"+"국어"+"\t"+"영어"+"\t"+"수학"+"\t"+"총점"+"\t"+"평균");
