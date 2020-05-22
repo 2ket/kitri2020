@@ -8,6 +8,12 @@ public class Quiz18 {
 			sb.append(i);
 		}
 		System.out.println(sb);
+		
+		StringBuilder stringB=new StringBuilder();
+		for(int i=1; i<=100; i++) {
+			stringB.append(i);
+		}
+		System.out.println(stringB.toString());
 	}
 
 }

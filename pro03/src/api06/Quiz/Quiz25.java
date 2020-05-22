@@ -10,12 +10,13 @@ class Point{
 	public String toString() {
 		return "["+x+"\t"+y+"\t"+z+"]";
 	}
-	public boolean equals(Point point) {
-		if(this.toString().equals(point.toString())) {	//근데 equals를 오버라이딩했는데 여기다가 원래Object클래스의 equals함수를 쓰는게 의미가 있...나...?
-			return true;
-		}else {
-			return false;
+	public boolean equals(Object obj) {
+		Point point=(Point) obj;
+		boolean result=false;
+		if(this.x==point.x && this.y==point.y && this.z==point.z) {
+			result=true;
 		}
+		return result;
 	}
 }
 

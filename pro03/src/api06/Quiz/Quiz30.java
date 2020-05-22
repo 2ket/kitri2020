@@ -13,6 +13,9 @@ public class Quiz30 {
 		
 		DecimalFormat df1=new DecimalFormat("0");
 		System.out.println("반올림: "+df1.format(su));
+		System.out.println("반올림 : "+Math.round(su));//강사님 풀이
+		
+		
 		DecimalFormat df2=new DecimalFormat("#,###");
 		System.out.println("만단위: "+df2.format(su));
 		
