@@ -17,6 +17,8 @@ public class ClientEx {
 			ClientSender sender=new ClientSender(socket, nickName);
 			sender.start();
 			
+			ClientReceiver receiver=new ClientReceiver(socket);
+			receiver.start();
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
