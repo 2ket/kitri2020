@@ -3,7 +3,6 @@ package db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
 
@@ -28,13 +27,13 @@ public class Ex02 {
 			
 			//3단계 : 작업관리
 			Scanner sc=new Scanner(System.in);
-			System.out.println("번호 : ");
+			System.out.print("번호 : ");
 			int bunho=sc.nextInt();
 			
-			System.out.println("이름 : ");
+			System.out.print("이름 : ");
 			String name=sc.next();
 			
-			System.out.println("키 : ");
+			System.out.print("키 : ");
 			float ki=sc.nextFloat();
 			
 			//정적쿼리
