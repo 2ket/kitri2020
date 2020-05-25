@@ -30,6 +30,7 @@ public class Ex01 {
 			PreparedStatement pstmt=conn.prepareStatement("select * from dept");
 			ResultSet rs=pstmt.executeQuery();
 			
+			//4단계 : 결과처리
 			while(rs.next()) {
 				int deptNo=rs.getInt("DEPTNO");
 				String deptName=rs.getString("dname");
@@ -37,6 +38,7 @@ public class Ex01 {
 				System.out.println(deptNo+"\t"+deptName+"\t\t"+location);
 			}
 			
+			//5단계 : 종료
 			rs.close();
 			pstmt.close();
 			conn.close();
@@ -44,8 +46,6 @@ public class Ex01 {
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-		//4단계 : 결과처리
-		//5단계 : 종료
 	}
 
 }
