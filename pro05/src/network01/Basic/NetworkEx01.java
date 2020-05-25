@@ -21,7 +21,7 @@ import java.net.UnknownHostException;
  * 		1) TCP/IP Transfer Control Protocol / Internet Protocol : 전화기 통신
  * 			- IP : 네트워크 연결되는 개개의 컴퓨터 주소
  * 			- TCP : IP 프로토콜 위에서 연결형 서비스를 지원하는 전송계층 프로토콜
- * 		2) UTP User Datagram Protocol : 소포방식, 편지
+ * 		2) UDP User Datagram Protocol : 소포방식, 편지
  * 			비연결 지향적 프로토콜이다. 비연결 지형적이란 데이터를 주고 받을 때 연결절차를 거치지 않고,
  * 			발신자가 일방적으로 데이터를 발신하는 방식.
  */
