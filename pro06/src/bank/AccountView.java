@@ -22,6 +22,18 @@ public class AccountView {
 			case 1:
 				jbank.makAccount();
 				break;
+			case 2:
+				jbank.deposit();
+				break;
+			case 3:
+				jbank.withdraw();
+				break;
+			case 4:
+				jbank.view();
+				break;
+			case 5:
+				jbank.showData();
+				break;
 			case 6:
 				System.out.println("종료합니다");
 				if(sc!=null) sc.close();
